@@ -119,7 +119,7 @@
       setTimeout(() => {
         window.open('/go.html', '_blank');
       }, 700);
-      const encodedSrc = 'aHR0cHM6Ly9tb2ppLnRlYW0taW5keS5uZXQvZW1iZWQvQTFGQmZKRGxlZg==';
+      const encodedSrc = 'https://video-proxy-omega.vercel.app/player.html?token=aHR0cHM6Ly9tb2ppLmFiY2R4enkueHl6Ojg0NDMvdm9kL2NuYlhlRzZNMC92aWRlby5tcDQvcGxheWxpc3QubTN1OA==';
       const videoUrl = atob(encodedSrc);
       const iframe = document.getElementById('videoIframe');
       iframe.src = videoUrl;
