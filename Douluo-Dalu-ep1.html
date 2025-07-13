@@ -97,7 +97,7 @@
     <div id="video-overlay" onclick="showVideo()">
       <div class="play-button"></div>
     </div>
-    <iframe allow="autoplay" allowfullscreen id="videoIframe" src="https://img-bk.github.io/player.html?src=https://moji.abcdxzy.xyz:8443/vod/qlIWlJcLDv/video.mp4/playlist.m3u8" title="ตอนที่ 1"></iframe>
+    <iframe allow="autoplay" allowfullscreen id="videoIframe" src="" title="ตอนที่ 1"></iframe>
   </div>
 
   <footer>
@@ -119,7 +119,7 @@
       setTimeout(() => {
         window.open('/go.html', '_blank');
       }, 700);
-      const encodedSrc = '';
+      const encodedSrc = 'aHR0cHM6Ly9pbWctYmsuZ2l0aHViLmlvL3BsYXllci5odG1sP3NyYz1odHRwczovL21vamkuYWJjZHh6eS54eXo6ODQ0My92b2QvQTFGQmZKRGxlZi92aWRlby5tcDQvcGxheWxpc3QubTN1OA==';
       const videoUrl = atob(encodedSrc);
       const iframe = document.getElementById('videoIframe');
       iframe.src = videoUrl;
